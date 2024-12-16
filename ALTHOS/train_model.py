@@ -37,4 +37,3 @@ print(confusion_matrix(y_test, y_pred))
 
 with open('./model', 'wb') as f:
     pickle.dump(rf_classifier, f)
-

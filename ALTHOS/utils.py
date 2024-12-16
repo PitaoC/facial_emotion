@@ -21,7 +21,7 @@ def get_face_landmarks(image, draw=False, static_image_mode=True):
 
             mp_drawing = mp.solutions.drawing_utils
             mp_drawing_styles = mp.solutions.drawing_styles
-            drawing_spec = mp_drawing.DrawingSpec(thickness=2, circle_radius=1)
+            drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 
             mp_drawing.draw_landmarks(
                 image=image,
